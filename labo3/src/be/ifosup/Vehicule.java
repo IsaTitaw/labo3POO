@@ -9,7 +9,8 @@ public class Vehicule {
 
     public String Vehicule(){
 
-        return "Je suis un véhicule";
+        return nom;
+
     }
 
     public String getNom() {
@@ -21,5 +22,13 @@ public class Vehicule {
         return "Vehicule{" +
                 "nom='" + nom + '\'' +
                 '}';
+    }
+
+    public void Avancer(int vitesse){
+        System.out.println("On avance à une vitesse de "+vitesse);
+    }
+
+    public void Tourner( int angle, String direction){
+        System.out.println("On tourne à "+angle+" à "+direction);
     }
 }

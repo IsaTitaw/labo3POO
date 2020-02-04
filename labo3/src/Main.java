@@ -13,15 +13,24 @@ public class Main {
 //        mavoiture.roule();
 //        mavoiture.arreter();
 //
-//        Batmobile mabatmobile = new Batmobile();
-//        System.out.println(mabatmobile.faisqqchose());
-//        mabatmobile.decolle();
-//        mabatmobile.roulesouseau();
-//        mabatmobile.arreter();
+        Batmobile mabatmobile = new Batmobile();
+        System.out.println(mabatmobile.faisqqchose());
+        mabatmobile.decolle();
+        mabatmobile.roulesouseau();
+        mabatmobile.arreter();
+        mabatmobile.deplacesouseau();
 
-        Hovercraft monhovercraft = new Hovercraft();
-        System.out.println(monhovercraft.Vehicule());
-        System.out.println(monhovercraft.faisqqchose());
+//        Hovercraft monhovercraft = new Hovercraft();
+//        System.out.println(monhovercraft.Vehicule());
+//        System.out.println(monhovercraft.faisqqchose());
+//
+//        Bateau monbateau = new Bateau();
+//        System.out.println(monbateau.Vehicule());
+//
+//        mavoiture.Avancer(45);
+
+
+
 
     }
 

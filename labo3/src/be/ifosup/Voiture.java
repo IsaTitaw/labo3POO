@@ -29,8 +29,8 @@ public class Voiture extends Vehicule implements Roulant {
 
     }
 
-    public String faisqqchose(){
-        return "Une voiture sert à aller d'un point A à un point B en transportant des gens et/ou des objets";
+    public void faisqqchose(){
+        System.out.println("Une voiture sert à aller d'un point A à un point B en transportant des gens et/ou des objets");
     }
 
     public String getModele() {
