@@ -26,24 +26,13 @@ public class Voiture extends Vehicule implements Roulant {
 
     public Voiture() {
         super("Je suis une voiture");
-
     }
 
     public void faisqqchose(){
-        System.out.println("Une voiture sert à aller d'un point A à un point B en transportant des gens et/ou des objets");
+        System.out.println( " sert à aller d'un point A à un point B en transportant des gens et/ou des objets");
     }
 
-    public String getModele() {
-        return modele;
-    }
 
-    public String getCouleur() {
-        return couleur;
-    }
-
-    public int getPower() {
-        return power;
-    }
 
     @Override
     public void roule() {
