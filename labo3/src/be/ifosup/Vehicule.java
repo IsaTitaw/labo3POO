@@ -7,6 +7,10 @@ public class Vehicule {
         this.nom = nom;
     }
 
+    public Vehicule() {
+
+    }
+
     public String Vehicule(){
 
         return nom;

@@ -13,12 +13,12 @@ public class Main {
 //        mavoiture.roule();
 //        mavoiture.arreter();
 //
-        Batmobile mabatmobile = new Batmobile();
-        System.out.println(mabatmobile.faisqqchose());
-        mabatmobile.decolle();
-        mabatmobile.roulesouseau();
-        mabatmobile.arreter();
-        mabatmobile.deplacesouseau();
+        Batmobile mabatmobile1 = new Batmobile(-50);
+        System.out.println(mabatmobile1.faisqqchose());
+        mabatmobile1.decolle();
+//        mabatmobile.roulesouseau();
+//        mabatmobile.arreter();
+        mabatmobile1.deplaceSouseau();
 
 //        Hovercraft monhovercraft = new Hovercraft();
 //        System.out.println(monhovercraft.Vehicule());

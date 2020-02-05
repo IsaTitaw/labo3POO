@@ -1,13 +1,13 @@
 package be.ifosup;
 
 public class Hovercraft extends Vehicule implements Amphibie, Volant {
-    private String modele;
+
     private int tailleHelice;
     private int nbHelice;
 
     public Hovercraft(String nom, String modele, int tailleHelice, int nbHelice) {
         super(nom);
-        this.modele = modele;
+
         this.tailleHelice = tailleHelice;
         this.nbHelice = nbHelice;
     }
@@ -16,7 +16,6 @@ public class Hovercraft extends Vehicule implements Amphibie, Volant {
         super("Je suis un hovercraft");
 
     }
-
 
 
     public String faisqqchose(){

@@ -1,20 +1,27 @@
 package be.ifosup;
 
 public class Batmobile extends Vehicule implements Roulant, Volant, Amphibie, Sous_marin {
-    private String couleur="noir";
 
-    public Batmobile(String nom, String couleur) {
-        super(nom);
-        this.couleur = couleur;
-    }
+    int profondeur;
 
-    public Batmobile() {
-        super("Je suis une batmobile");
-    }
+ Batmobile(int prof){
+     profondeur=prof;
+ }
+
+
+//    public Batmobile() {
+//        super("Je suis une batmobile");
+//    }
 
     public String faisqqchose(){
         return "Une batmobile ça sait tout faire";
     }
+
+    @Override
+    public void deplaceSousEau() {
+        deplaceSousEau(profondeur);
+    }
+
 
     @Override
     public void roulesouseau() {
@@ -56,11 +63,6 @@ public class Batmobile extends Vehicule implements Roulant, Volant, Amphibie, So
 
     }
 
-    @Override
-    public void deplacesouseau(){
-
-
-    }
 
     @Override
     public void remontesurface() {
